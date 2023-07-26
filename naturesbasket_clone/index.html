@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Online Supermarket & Premium Grocery Shopping Store in India -... naturebasket.co.in</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600&amp;display=swap" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="https://mark.trademarkia.com/logo-images/phoenix-intangibles-holding-company/natures-basket-88282533.jpg" type="image/x-icon">
+</head>
+<body>
+<div id="parent">
+    <div id="heading">
+        <div id="image"> 
+            <img src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2"/>
+        </div>
+        <div id="search" >
+            <div id="type">
+                <li>Online Slots Availability</li> &nbsp;&nbsp;
+                <li>|</li> &nbsp;&nbsp;
+                <li>fresh & Fast</li> &nbsp;&nbsp;
+                <li>|</li> &nbsp;&nbsp;
+                <li>Store Locator </li> &nbsp;&nbsp;
+                <li>|</li> &nbsp;&nbsp;
+                <li>Contact us </li>
+            </div>
+            <div class="search-bar">
+                <select id="location">
+                    <option>India</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Bengaluru</option>
+                    <option>Kolkata</option>
+                </select>
+                <input type="number" placeholder=" ✎ Enter pin">
+                <input type="text" href="#" placeholder="start shopping . . .">
+                <button type="submit"><i class="ri-search-line"></i></button>
+               
+            </div>
+        </div>
+        <div id="user">
+            <div id="userlogin">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div><a style="text-decoration: none;color:black;" href="login.html">Login</a></div>
+            </div>
+            <div id="starbasket">
+                <div >
+                    <img style="margin-left: 40%;" src="data:image/jpeg;base64,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">
+                </div>
+                <div id="cartdiv">
+                    <a  href="cart.html"><img src="https://th.bing.com/th/id/OIP.xOhzzARIYSQn_-Un5FB1OQHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7"></a>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------heading completed -->
+
+    <div id="category">
+        <div id="heading2">
+            <div id="SHOPBYCATEGORY" value="SHOP BY CATEGORY">
+                <select id="sel">
+                    <option>
+                        <span>SHOP BY CATEGORY</span> 
+                        <span><img src="https://www.naturesbasket.co.in/Images/menuicon1.png"></span>
+                    </option>
+                    <option>Wine & Beer</option>
+                    <option>Gift Hampers</option>
+                    <option>Fruits & Vegetables</option>
+                    <option>Cheese, Meat & Fruit Platters </option>
+                    <option>Delicatessen & Cheese</option>
+                    <option>International Cuisine</option>
+                    <option>Health</option>
+                    <option>Indian Grocery</option>
+                    <option>Confectionary & Patisserie</option>
+                    <option>Meats, Seafood And Eggs</option>
+                    <option>Snack Bar</option>
+                    <option>Snack & Beverages</option>
+                    <option>Breakfast, Diary & Bakery</option>
+                    <option>Instant Meals & Aids</option>
+                    <option>The Good Food Cafe</option>
+                    <option>Packing Material</option>
+                </select>
+            </div>
+            <div><span>PAST PURCHASES</span></div>
+            <div>GIFTING</div>
+            <div>REWARDS</div>
+            <div>BLOG</div>
+            <div>OFFERS</div>
+            <div><sapn>CONNOISSEUR'S SELECTION</sapn></div>
+            <div><sapn>BOOK STORE</sapn></div>
+        </div>
+</div>
+    <!-----------------end header -------------------->
+        <div id="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/0f2301bb-4607-47f9-859c-1c2c21642159_1320x376.jpg" alt="Chania">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/d923ad74-9f00-45a0-b19f-4af69eb07df6_1320x376.jpg" alt="Chicago">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/5658ebaa-f296-4121-991c-c2009109e764_1320x376.jpg" alt="Chicago">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/172ece1d-70d5-44d5-a5f4-0d236c1d815a_1320x376.jpg" alt="Chicago">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/69fbb757-9d70-45c0-9875-14c8b4f18804_1320x376.jpg" alt="Chicago">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/29e5f6d0-7087-49d0-bd5a-dab151d860de_1320x376.jpg" alt="New York">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/4c720a91-f8f7-437a-bbfd-71e63580e802_1320x376.jpg" alt="New York">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/69fbb757-9d70-45c0-9875-14c8b4f18804_1320x376.jpg" alt="New York">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/82a1ea7f-02c2-4192-b0d7-588973fa8d14_1320x376.jpg" alt="New York">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+            </div>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            
+            </div>
+        </div>
+
+        <!-- --------------------------------------------------------------------------------- -->
+
+        <div id="gifts">
+            <div>
+                <img src="https://www.naturesbasket.co.in/Images/NaturesBasketGifting.jpeg?v=7">
+            </div>
+            <div>
+                <img src="https://www.naturesbasket.co.in/Images/Japanesecuisine-webbox.png?v=9">
+            </div>
+            <div>
+                <img src="https://www.naturesbasket.co.in/Images/Gluten-free-web%20box%20banner.png?v=15">
+            </div>
+        </div>
+
+        <h2> SHOP BY CATEGORY</h2>
+        <div class="SHOPBYCATEGORY">
+            <div>
+                <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/Organicweb.png">
+                <span>Exotic vegetables</span>
+                <ul>
+                   <li>Asparagus Artichokes</li>
+                    <li>Avocados Peppers</li>
+                    <li>Broccoli Zucchini</li>
+                    <li style="color: green;">View all</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/Readytoeatweb.png">
+                <span>Daily Essentials</span>
+                <ul>
+                    <li>Asparagus Artichokes</li>
+                    <li>Avocados Peppers</li>
+                    <li>Broccoli Zucchini</li>
+                    <li style="color: green;">View all</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/bespokeweb.png">
+                <span>CONFICTIONARY AND PATISSERIE</span>
+                <ul>
+                    <li>Asparagus Artichokes</li>
+                    <li>Avocados Peppers</li>
+                    <li>Broccoli Zucchini</li>
+                    <li style="color: green;">View all</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/fineteasweb.png">
+                <span>HEART HEALTHY FOODS</span>
+                <ul>
+                    <li>Asparagus Artichokes</li>
+                    <li>Avocados Peppers</li>
+                    <li>Broccoli Zucchini</li>
+                    <li style="color: green;">View all</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/hearthealthyfoodsweb.png">
+                <span>INDIAN GROCERY</span>
+                <ul>
+                    <li>Asparagus Artichokes</li>
+                    <li>Avocados Peppers</li>
+                    <li>Broccoli Zucchini</li>
+                    <li style="color: green;">View all</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/indiangroceryweb.png">
+                <span>ORAGINC</span>
+                <ul>
+                    <li>Asparagus Artichokes</li>
+                    <li>Avocados Peppers</li>
+                    <li>Broccoli Zucchini</li>
+                    <li style="color: green;">View all</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/confectionaryweb.png">
+                <span>FAST FOODS</span>
+                <ul>
+                    <li>Asparagus Artichokes</li>
+                    <li>Avocados Peppers</li>
+                    <li>Broccoli Zucchini</li>
+                    <li style="color: green;">View all</li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/internationalcusineweb.png">
+                <span>INTERNATIONAL CUISINE</span>
+                <ul>
+                    <li>Asparagus Artichokes</li>
+                    <li>Avocados Peppers</li>
+                    <li>Broccoli Zucchini</li>
+                    <li style="color: green;">View all</li>
+                </ul>
+            </div>
+        </div>
+        
+<!-------- trending offers ---------->
+        
+<h2>TRENDING OFFERS</h2>
+<div class="products">
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c390252e-4bdb-4292-95fe-9e6ffdca0813_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>Rajma Chitra Organic - Organic Tattva</h3>
+            <h4>159</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/533198a2-a76d-4cbd-89c3-a418e8bd6233_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>HAAGEN DAZS CHOC CHOCO ALMD BAR 80ml </h3>
+            <h4>874</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/2acf5565-d839-4eb3-808b-62835cfb03b9_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>RITE BITE MAX PRO DAILY CHOALM 300G</h3>
+            <h4>433</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/4ce1d47a-6da4-4ae5-9a87-e415e01eec74_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>BETTY CROCKER BUTTRMILK PANCAKE MIX..</h3>
+            <h4>890</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/1759879d-52d4-4919-9364-20cedfd41da2_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>BETTY CROCKER FRNCH VNLA CAKE MIX 5..</h3>
+            <h4>79</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/17d6b165-a222-4e0e-9d2e-20c34236e277_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>HA TAPIOCA FLOUR 400G</h3>
+            <h4>878</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/97e020df-acc1-4b42-bc2c-40160bacf0c0_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>KW MAGNUM CHOCOTRFFLE STICK 80Ml</h3>
+            <h4>45</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/c14f4343-335e-42d6-84bc-7d2e412d6660_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>RAY SPRAY OIL JAR 200Ml</h3>
+            <h4>456</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/17d6b165-a222-4e0e-9d2e-20c34236e277_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>HA TAPIOCA FLOUR 400G</h3>
+            <h4>90</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/ea67eb11-2629-4772-9147-a6ee2ab63d3c_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>ZORABIAN CHI COCKTAIL BBQ SAUSAGES</h3>
+            <h4>456</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/b2afe385-4b55-4b7c-bdee-bbef03eb1d7b_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>BORGES NATURA RICE &amp; ALMOND DRINK 1l</h3>
+            <h4>878</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/d3b35d52-94ac-4800-86d8-301c6bed1fda_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>ZORABIAN CHICKEN NUGGETS 250G</h3>
+            <h4>890</h4>
+            <button>Add</button>
+        </div>
+        <div>
+            <img src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/216def31-a261-4435-8ece-4476d0689869_425x425.jpg">
+            <p>DELIVERY IN 90 MINUTES</p>
+            <h3>RRO SOUR CREAM 200G</h3>
+            <h4>433</h4>
+            <button>Add</button>
+        </div>
+</div>
+
+<h2>OUR EVENTS</h2>
+<div id="event">
+    <div><a href=#><img src="https://www.naturesbasket.co.in/Images/PhotoGallery/SanjeevKapoor_at_KolkataGallary.jpg" style="width: 400px;height:300px; border-radius:10px; object-fit: cover;"></a></div>
+    <div><a href=#><img src="https://www.naturesbasket.co.in/Images/PhotoGallery/SaranshGallary.png" style="width: 400px;height:300px; border-radius:10px;object-fit: cover;"></a></div>
+    <div><a href=#><img src="https://www.naturesbasket.co.in/Images/PhotoGallery/Italian-Workshop---Chef-Antonello.jpg" style="width: 400px;height:300px; border-radius:10px;object-fit: cover;"></a></div>
+</div>
+
+<div class="heading-bg"><h2>Shop By World Brands</h2></div>
+<div id="DivWorlBrand" name="shop by world brands" class="MySlider source_Class" source="addtocart_worldbrands" style="height: 100px; padding-top: 20px;">
+<div class="bx-wrapper" style="max-width: 1252px; margin: 0px auto 0px 45px; height: 57px; width: 1252px;">
+<div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 82px;">
+    <ul class="bxslider" style="width: 1115%; position: relative; transition-duration: 0.5s; transform: translate3d(-2295px, 0px, 0px);">
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/Barilla/837"><img src="https://d1z88p83zuviay.cloudfront.net/Images/barilla.jpg" alt="Barilla/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/Ceres/612"><img src="https://d1z88p83zuviay.cloudfront.net/Images/ceres.jpg" alt="Ceres/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/Lindt/1763"><img src="https://d1z88p83zuviay.cloudfront.net/Images/lindt.jpg" alt="Lindt/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/Silk/1416"><img src="https://d1z88p83zuviay.cloudfront.net/Images/silk.jpg" alt="Silk/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/Davidoff/655"><img src="https://d1z88p83zuviay.cloudfront.net/Images/davidoff-cafe.jpg" alt="Davidoff/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;">
+            <a href="BrandProduct/L-Exclusif/630"><img src="https://d1z88p83zuviay.cloudfront.net/Images/lexlusif.jpg" alt="L'Exclusif/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;">
+            <a href="BrandProduct/Healthy-Alternatives/631"><img src="https://d1z88p83zuviay.cloudfront.net/Images/healthy.jpg" alt="Healthy" alternatives=""></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;">
+            <a href="BrandProduct/Cambay-Tiger/839"><img src="https://d1z88p83zuviay.cloudfront.net/Images/cambay-tiger.jpg" alt="Cambay" tiger=""></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;">
+            <a href="BrandProduct/Real-Thai/741"><img src="https://d1z88p83zuviay.cloudfront.net/Images/real-thai.jpg" alt="Real" thai=""></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;">
+            <a href="BrandProduct/Barilla/837"><img src="https://d1z88p83zuviay.cloudfront.net/Images/barilla.jpg" alt="Barilla/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;">
+            <a href="BrandProduct/Ceres/612"><img src="https://d1z88p83zuviay.cloudfront.net/Images/ceres.jpg" alt="Ceres/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;">
+            <a href="BrandProduct/Lindt/1763"><img src="https://d1z88p83zuviay.cloudfront.net/Images/lindt.jpg" alt="Lindt/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;">
+            <a href="BrandProduct/Silk/1416"><img src="https://d1z88p83zuviay.cloudfront.net/Images/silk.jpg" alt="Silk/"></a>
+        </li>
+       
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/L-Exclusif/630"><img src="https://d1z88p83zuviay.cloudfront.net/Images/lexlusif.jpg" alt="L'Exclusif/"></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/Healthy-Alternatives/631"><img src="https://d1z88p83zuviay.cloudfront.net/Images/healthy.jpg" alt="Healthy" alternatives=""></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/Cambay-Tiger/839"><img src="https://d1z88p83zuviay.cloudfront.net/Images/cambay-tiger.jpg" alt="Cambay" tiger=""></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/Real-Thai/741"><img src="https://d1z88p83zuviay.cloudfront.net/Images/real-thai.jpg" alt="Real" thai=""></a>
+        </li>
+        <li style="text-align: center; float: left; list-style: none; position: relative; width: 250px; margin-right: 5px;" class="bx-clone">
+            <a href="BrandProduct/Barilla/837"><img src="https://d1z88p83zuviay.cloudfront.net/Images/barilla.jpg" alt="Barilla/"></a>
+        </li>
+    </ul>
+    </div>
+  </div> 
+</div>
+
+<!-- -------------------------------------------------------- -->
+
+<br>
+<div id="about">
+<h3> Online Grocery Store India </h3>
+<p>Nature’s Basket is a grocery store operating in Mumbai, Bangalore and Pune with deliveries to all cities across India including Hyderabad, Delhi, Kolkata, Chennai, Surat and more. We offer a wide range of food products for all your everyday needs and even offer grocery home delivery as well as a grocery shop online for you to purchase from. Our online grocery store has <a href="https://www.naturesbasket.co.in/Online-grocery-shopping/Fruits---Vegetables/5_0_0">fresh fruits and vegetables</a>, fresh and <a href="https://www.naturesbasket.co.in/Online-grocery-shopping/Meats-Seafood-and-Eggs/8_0_0">frozen meats and seafood</a>, a wide range of breads and other packaged <a href="https://www.naturesbasket.co.in/Online-grocery-shopping/Breakfast--Dairy---Bakery/11_0_0"> bakery products</a> as well as a range of <a href="https://www.naturesbasket.co.in/Online-grocery-shopping/Delicatessen-Cheese/2_0_0">fresh cheeses</a>  from around the world. We even have a range of every staple and international cuisine product to meet your needs along with organic products for fresh and packaged food items. With our offerings, we have the best online food shop &amp; online grocery shopping platform available for all your grocery products as well as physical grocery stores in select cities. </p>
+<h3> Best Online Grocery Supermarket India  </h3>
+<p><p> With stores in Mumbai, Pune and Bangalore and online delivery services, you can now have all your grocery supermarket shopping done online. We have a wide range of grocery products to offer at our stores for you to buy groceries from a channel convenient to you. Choose from fresh produce to packaged goods, buy groceries online and get them delivered straight to your doorstep, thus making it a convenient and quick process. You can pay for the shopping using credit cards, cash, coupons or online banking facility. We are sure to have all the grocery products for your daily dietary needs from regular local Indian brands and products to exotic and international imported ones.  </p></p>
+<h3> Online Grocery Supermarket Shopping India </h3>
+  <p><p> With our wide range of groceries available, Nature’s Basket is a large online supermarket and grocery store for all your everyday food needs. We offer you the best quality grocery products which you can buy online and have them delivered to you conveniently. We have our grocery stores in Mumbai, Pune and Bangalore where you can buy groceries and food items. We also have the best online grocery store to shop for fruits and vegetables, meats and seafood, breads and other bakery items as well as cheese and dairy. Order groceries online from the best quality grocery store at best prices. </p></p>        
+</div>  
+
+<div class="footersection2">
+    <section class="container">
+        <div class="row">
+            <div class="download-app">
+            <p style="margin:10px;">
+                <a href="https://play.google.com/store/apps/details?id=com.godrej.naturesbasketltd" target="_blank"><img id="ctl00_img_android" src="https://cdn.worldvectorlogo.com/logos/get-it-on-google-play.svg" style="width:170px;border-width:0px;"></a>
+                <a href="https://apps.apple.com/in/app/natures-basket/id1013402486" target="_blank"><img id="ctl00_img_apple" src="https://cdn.worldvectorlogo.com/logos/available-on-the-app-store.svg" style="width:170px;border-width:0px;"></a>
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-3-9 socialiconbtm">
+			    <ul>
+					<li><strong>Keep in Touch</strong></li>
+					<li><a style="text-decoration: none" target="_blank" href="https://www.facebook.com/NaturesBasket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47062 14 5.5 16 5.5H17.5V2.1401C17.1743 2.09685 15.943 2 14.6429 2C11.9284 2 10 3.65686 10 6.69971V9.5H7V13.5H10V22H14V13.5Z"></path></svg></a></li>
+					<li><a style="text-decoration: none" target="_blank" href="https://twitter.com/NaturesBasket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M22.2125 5.65605C21.4491 5.99375 20.6395 6.21555 19.8106 6.31411C20.6839 5.79132 21.3374 4.9689 21.6493 4.00005C20.8287 4.48761 19.9305 4.83077 18.9938 5.01461C18.2031 4.17106 17.098 3.69303 15.9418 3.69434C13.6326 3.69434 11.7597 5.56661 11.7597 7.87683C11.7597 8.20458 11.7973 8.52242 11.8676 8.82909C8.39047 8.65404 5.31007 6.99005 3.24678 4.45941C2.87529 5.09767 2.68005 5.82318 2.68104 6.56167C2.68104 8.01259 3.4196 9.29324 4.54149 10.043C3.87737 10.022 3.22788 9.84264 2.64718 9.51973C2.64654 9.5373 2.64654 9.55487 2.64654 9.57148C2.64654 11.5984 4.08819 13.2892 6.00199 13.6731C5.6428 13.7703 5.27232 13.8194 4.90022 13.8191C4.62997 13.8191 4.36771 13.7942 4.11279 13.7453C4.64531 15.4065 6.18886 16.6159 8.0196 16.6491C6.53813 17.8118 4.70869 18.4426 2.82543 18.4399C2.49212 18.4402 2.15909 18.4205 1.82812 18.3811C3.74004 19.6102 5.96552 20.2625 8.23842 20.2601C15.9316 20.2601 20.138 13.8875 20.138 8.36111C20.138 8.1803 20.1336 7.99886 20.1256 7.81997C20.9443 7.22845 21.651 6.49567 22.2125 5.65605Z"></path></svg></a></li>
+                    <li><a style="text-decoration: none" target="_blank" href="https://www.youtube.com/user/GodrejNaturesBasket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12.2439 4C12.778 4.00294 14.1143 4.01586 15.5341 4.07273L16.0375 4.09468C17.467 4.16236 18.8953 4.27798 19.6037 4.4755C20.5486 4.74095 21.2913 5.5155 21.5423 6.49732C21.942 8.05641 21.992 11.0994 21.9982 11.8358L21.9991 11.9884L21.9991 11.9991C21.9991 11.9991 21.9991 12.0028 21.9991 12.0099L21.9982 12.1625C21.992 12.8989 21.942 15.9419 21.5423 17.501C21.2878 18.4864 20.5451 19.261 19.6037 19.5228C18.8953 19.7203 17.467 19.8359 16.0375 19.9036L15.5341 19.9255C14.1143 19.9824 12.778 19.9953 12.2439 19.9983L12.0095 19.9991L11.9991 19.9991C11.9991 19.9991 11.9956 19.9991 11.9887 19.9991L11.7545 19.9983C10.6241 19.9921 5.89772 19.941 4.39451 19.5228C3.4496 19.2573 2.70692 18.4828 2.45587 17.501C2.0562 15.9419 2.00624 12.8989 2 12.1625V11.8358C2.00624 11.0994 2.0562 8.05641 2.45587 6.49732C2.7104 5.51186 3.45308 4.73732 4.39451 4.4755C5.89772 4.05723 10.6241 4.00622 11.7545 4H12.2439ZM9.99911 8.49914V15.4991L15.9991 11.9991L9.99911 8.49914Z"></path></svg></a></li>
+					<li><a style="text-decoration: none" target="_blank" href="https://instagram.com/NaturesBasket/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z"></path></svg></a></li>
+					<li><a style="text-decoration: none" target="_blank" href="https://in.pinterest.com/naturesbasket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M13.3717 2.09442C8.42512 1.41268 3.73383 4.48505 2.38064 9.29256C1.02745 14.1001 3.42711 19.1692 8.00271 21.1689C7.94264 20.4008 7.99735 19.628 8.16502 18.8761C8.34964 18.0374 9.46121 13.4132 9.46121 13.4132C9.23971 12.9173 9.12893 12.379 9.13659 11.8359C9.13659 10.3509 9.99353 9.24295 11.0597 9.24295C11.4472 9.23718 11.8181 9.40028 12.0758 9.68981C12.3335 9.97934 12.4526 10.3667 12.402 10.751C12.402 11.6512 11.8236 13.0131 11.5228 14.2903C11.4014 14.7656 11.5131 15.2703 11.8237 15.65C12.1343 16.0296 12.6069 16.2389 13.0967 16.2139C14.9944 16.2139 16.2675 13.7825 16.2675 10.9126C16.2675 8.71205 14.8098 7.0655 12.1243 7.0655C10.826 7.01531 9.56388 7.4996 8.63223 8.40543C7.70057 9.31126 7.18084 10.5595 7.19423 11.859C7.16563 12.5722 7.39566 13.2717 7.84194 13.8287C8.01361 13.9564 8.07985 14.1825 8.00425 14.3827C7.9581 14.5673 7.84194 15.0059 7.79578 15.1675C7.77632 15.278 7.70559 15.3728 7.60516 15.4228C7.50473 15.4729 7.38651 15.4724 7.28654 15.4214C5.9019 14.8674 5.24957 13.3439 5.24957 11.6051C5.24957 8.75822 7.63424 5.3497 12.4036 5.3497C16.1998 5.3497 18.723 8.1273 18.723 11.0972C18.723 15.0059 16.5468 17.9451 13.3298 17.9451C12.3526 17.9761 11.4273 17.5061 10.8759 16.6986C10.8759 16.6986 10.2974 19.0146 10.1835 19.4531C9.95101 20.2099 9.60779 20.9281 9.16505 21.5844C10.0877 21.8643 11.0471 22.0044 12.0113 22C14.6636 22.0017 17.2078 20.9484 19.0829 19.072C20.958 17.1957 22.0099 14.6504 22.0069 11.9975C22.004 7.00306 18.3183 2.77616 13.3717 2.09442Z"></path></svg></a></li>                  
+				</ul>
+			</div>
+        </div> 
+        </div>
+    </section>
+    <section class="fluidcontainer footerbottom">
+        <div class="container">
+            <ul> 
+                <li><span class="coprightsymbol">©</span> 2020 Natures Basket Limited. &nbsp;All rights reserved. </li> 
+                <li>|</li> 
+                 <li><a href="/HTML/PrivacyPolicy.aspx">  Privacy Policy </a></li>
+                 <li>|</li>
+                <li><a href="/HTML/TermOfUse.aspx">Terms of Use</a></li> 
+                <li>|</li> 
+                <li>Home Delivery Number - 8880077745</li> 
+                <li>|</li> 
+                 <li><a target="_blank" href="/HTML/SiteMap.aspx">Site Map</a></li>
+                 <li>|</li> 
+                <li><a target="_blank" href="#">Mobile Site</a></li>
+                <li>|</li>
+                <li>FSSAI License Number - 11519002000496</li>
+            </ul> 
+        </div>                       
+    </section> 
+</div>
+
+
+
+</div>   
+</body>
+<script src="home.js"></script>
+</html>
+
+
